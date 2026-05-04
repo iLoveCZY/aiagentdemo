@@ -21,7 +21,7 @@ import org.springframework.context.annotation.Bean;
  */
 @SpringBootApplication
 public class AgentApplication {
-
+    //test
     @Bean(name = "chatClient")
     public ChatClient chatClient(ChatClient.Builder chatClientBuilder) {
         return chatClientBuilder.build();
